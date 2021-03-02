@@ -38,3 +38,6 @@ function factorial(n){
 }
 ```
 
+## Education 
+Now I'm styding in Belarusian State University of Informatics and Radioelectronics. At the moment I'm finishing 2nd course on the speciality `programmable mobile systems`
+
