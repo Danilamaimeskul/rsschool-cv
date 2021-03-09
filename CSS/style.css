@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../Images/background.JPG') no-repeat center / cover;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+  padding: 25px 0;
+}
+header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .navigation{
+  max-width: 1280px;
+  width: 100%;
+}
+header .container .navigation .menu__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+header .container .navigation .menu__list__item{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+header .container .navigation .menu__list__item .navigation__link{
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+header .container .navigation .menu__list__item .navigation__link:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+#about__me .some__info{
+    margin-top: 70px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+#about__me .some__info__title{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#about__me .some__info__subtitle{
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#about__me .portrait{
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    height: 100%;
+    background: url('../Images/background.JPG') no-repeat center / cover;
+}
+#about__me .some__info .some__text{
+    width: 800px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#skills .categories__wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#skills .skills__list .skills__title{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+#skills .category__item--hover{
+    display: flex;
+    justify-content: center;
+
+}
+#skills .categories__wrapper .category__item{
+  width: 100%;
+  padding: 100px 0 100px 0px;
+  position: relative;
+}
+#skills .skills__title{
+    padding: 20px;
+}
+#skills .categories__wrapper .category__item--html{
+    background: url('../Images/logo/html5-logo.svg') no-repeat center / contain;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#skills .categories__wrapper .category__item--css{
+    background: url('../Images/logo/css-logo.svg') no-repeat center / contain;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}  
+#skills .categories__wrapper .category__item--javascript{
+    background: url('../Images/logo/js-logo.svg') no-repeat center / contain;
+    margin-bottom: 40px;
+}
+#skills .categories__wrapper .category__item--cpp{
+    background: url('../Images/logo/cpp-logo.svg') no-repeat center / contain;
+    margin-bottom: 40px;
+}
+#skills .categories__wrapper .category__item--java{
+    background: url('../Images/logo/java-logo.svg') no-repeat center / contain;
+    margin-bottom: 40px;
+}
+#skills .categories__wrapper .category__item--zabbix{
+    background: url('../Images/logo/zabbix-logo.svg')  no-repeat center / contain;
+    background-size: 30%;
+    margin-bottom: 40px;
+}
+#skills .categories__wrapper .category__item--html::after{
+
+}
+#skills .categories__wrapper .category__item--medium{
+  max-width: 50%;
+}
+#examples .container .code__examples{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 900px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.footer__socials{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footer__link{
+    margin: 0 10px 30px 10px;
+    display: flex;
+}
+.footer__contact{
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+footer{
+    margin-bottom: 70px;
+}
